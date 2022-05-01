@@ -1,0 +1,27 @@
+@import '../../../Styles/theme';
+
+.menu-container {
+  color: $black-color;
+  margin: 32px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  ul {
+    width: 479px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+    li {
+      cursor: pointer;
+
+      &:hover {
+        font-weight: 600;
+        color: $primary-color;
+      }
+    }
+  }
+}

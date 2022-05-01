@@ -1,0 +1,39 @@
+@import '../../Styles/_theme';
+
+.index-container {
+  position: relative;
+  color: $black-color;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .text-container {
+      width: 519px;
+
+      p {
+        line-height: 2;
+      }
+
+      h1 {
+        margin: 16px 0;
+      }
+    }
+  }
+
+  .right-wave,
+  .left-wave {
+    position: absolute;
+  }
+
+  .left-wave {
+    left: 0;
+    top: 84px;
+  }
+
+  .right-wave {
+    right: 0;
+    top: 383px;
+  }
+}

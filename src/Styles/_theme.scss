@@ -1,0 +1,18 @@
+//default colors
+$primary-color: #ff8a48;
+$primary-color-light-10: lighten($primary-color, 10%);
+$primary-color-dark: darken($primary-color, 10%);
+
+$secondary-color: #c60000;
+$secondary-color-light: lighten($secondary-color, 20%);
+$secondary-color-light-10: lighten($secondary-color, 10%);
+
+$black-color: #282828;
+$gray-color: #757575;
+$gray-color-light: #dadada;
+
+// media queries utility
+$max-width-laptop: 1460px;
+$max-width-laptop-small: 1366px;
+$max-width-tablet: 800px;
+$max-width-mobile: 500px;
