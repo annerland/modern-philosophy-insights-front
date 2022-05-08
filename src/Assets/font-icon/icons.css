@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'icons';
+  src: url('./icons.eot?f373bd1edc6fa9779442cb13d98091bc#iefix')
+      format('embedded-opentype'),
+    url('./icons.woff2?f373bd1edc6fa9779442cb13d98091bc') format('woff2'),
+    url('./icons.woff?f373bd1edc6fa9779442cb13d98091bc') format('woff');
+}
+
+i[class^='icon-']:before,
+i[class*=' icon-']:before {
+  font-family: icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-arrow-down:before {
+  content: '\f101';
+}
+.icon-github:before {
+  content: '\f102';
+}

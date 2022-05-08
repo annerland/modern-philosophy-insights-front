@@ -4,8 +4,8 @@ $primary-color-light-10: lighten($primary-color, 10%);
 $primary-color-dark: darken($primary-color, 10%);
 
 $secondary-color: #c60000;
+$secondary-color-dark: darken($secondary-color, 5%);
 $secondary-color-light: lighten($secondary-color, 20%);
-$secondary-color-light-10: lighten($secondary-color, 10%);
 
 $black-color: #282828;
 $gray-color: #757575;

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:icons": "fantasticon src/Assets/icons -o src/Assets/font-icon",
     "preview": "vite preview",
     "prepare": "husky install"
   },
